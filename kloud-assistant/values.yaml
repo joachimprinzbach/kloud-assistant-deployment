@@ -8,7 +8,7 @@ backend:
   readinessProbePath: api/actuator/health
   image:
     repository: joachimprinzbach/kloud-assistant
-    tag: triggerpull
+    tag: latest
     pullPolicy: Always
   service:
     type: ClusterIP
