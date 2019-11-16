@@ -7,7 +7,7 @@ backend:
   livenessProbePath: api/actuator/health
   readinessProbePath: api/actuator/health
   image:
-    repository: joachimprinzbach/kloudassistant
+    repository: joachimprinzbach/kloud-assistant
     tag: latest
     pullPolicy: Always
   service:
