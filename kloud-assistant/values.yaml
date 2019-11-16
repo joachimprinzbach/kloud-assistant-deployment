@@ -2,7 +2,7 @@ route:
   enabled: true
   host: "kloudassistant.apps.baloise.dev"
 backend:
-  replicaCount: 1
+  replicaCount: 0
   appPort: 8080
   livenessProbePath: api/actuator/health
   readinessProbePath: api/actuator/health
